@@ -1,0 +1,16 @@
+/* print the sequence 5, 10, 15, 20,..... upto n term */
+
+#include<stdio.h>
+int main ()
+{
+    int n, i = 1;
+    printf ("enter n: ");
+    scanf ("%d", &n);
+    
+    while (i<= n)
+    {
+        printf ("%d...", i * 5);
+        i++;
+    }
+    return 0;
+}    

@@ -1,0 +1,23 @@
+/* Write a C program to display first n (n<0) term of the tribonacci sequence */
+
+#include <stdio.h>
+
+int main() {
+    int n, i = 1;
+    int a = 0, b= 1, c = 1, d;
+    
+
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    while (i <= n ) {
+        printf ("%d    ", a);
+        d = a + b + c;
+        a = b;
+        b = c;
+        c = d;
+        i++;
+    }
+
+    return 0;
+}
