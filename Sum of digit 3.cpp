@@ -10,8 +10,7 @@ int main ()
     {
     	digit = n % 10;
     	n/=10;
-    	sum+digit;
+    	sum+=digit;
 	}
 	printf (" The Sum of the Digits is --> %d", sum);
-    return 0;
 }
