@@ -1,4 +1,4 @@
-/* write a c program to find a smallest number within an Array*/
+/* write a c program to find a average number within an Array*/
 
 #include <stdio.h>
 int main()
